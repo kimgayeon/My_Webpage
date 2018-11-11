@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ga Yeon's plan to Europe</title>
+	<link rel="stylesheet" type="text/css" href="menu.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+	<style>
+		body{
+			margin: 20px;
+			color: gray;
+			text-align : left;
+			font-family: "Georgia", "Platino", Serif;
+		}
+		h1{
+			font-style: italic;
+		}
+		h2{
+			margin-left: 30px;
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: bold;
+			text-decoration: underline;
+		}
+		table{
+			border: 2px solid #B22222;
+			border-collapse: collapse;
+			padding: 10px;
+			text-align: center;
+			width: 100%;
+			height: 50px;
+		}
+		th{
+			background-color: #FFE4C4;
+			height: 50px;
+		}
+		th,td{
+			height: 50px;
+			border: 1px solid #B22222;
+			font-family: Tahoma, Geneva, sans-serif;
+			color: #2F4F4F;
+		}
+		tr:hover{
+			background-color: #FFF8DC;
+		}
+		div{
+			margin-left: 20px;
+			margin-right: 20px;
+			padding: 0;
+		}
+		ol{
+			margin-left: 20px;
+		}
+		ol li{
+			font-size: 20px;
+			font-color: gray;
+			font-family: "Verdana","Arial","Tahoma",Sans-serif;
+		}
+		input:hover{
+			background-color: aliceblue;
+		}
+		input[type=checkbox]:hover{
+			cursor: pointer;
+		}
+		button:hover{
+			cursor: pointer;
+		}
+		#content{
+			display: none;
+		}
+		.page{
+			opacity:0;
+		}
+		
+	</style>
+</head>
+<body class="page">
+	<span id="title" style="cursor:pointer;"><h1><img id="airplane" border="0" src="airplane.jpg" width="40px" height="40px">    Plan A Trip To Europe</h1></span>
+	<ul>
+		<li><a href="United_Kingdom.html">United Kingdom</a></li>
+	    <li><a href="France.html">France</a></li>
+	    <li><a href="Germany.html">Germany</a></li>
+	    <li><a href="Czech.html">Czech</a></li>
+	    <li><a href="Austria.html">Austria</a></li>
+	    <li><a href="Swiss.html">Swiss</a></li>
+	    <li><a href="Italy.html">Italy</a></li>
+	    <li class = "float"><a href="#course" onclick="toCourse()">Course</a></li>
+	    <li class = "float"><a href="#tips" onclick="toTips()">Tips</a></li>
+	    <li class = "float"><a href="#join" onclick="toJoin()">Join</a></li>
+	</ul>
+
+
+	<img src = "background5.jpg" width = "100%" height="550px" onclick="change(this)" style="cursor:pointer;">
+	<br><br><br>
+
+	<h2 id="course"> Course <br><br> </h2>
+	
+	<div>
+	<span style="float:left; width:40%;"><img src = "europe_map.png" id="map" width = "100%" height="30%" usemap="#europemap" style="opacity:0.4;">  </span> 
+	<map name="europemap">
+    	<area shape="rect" coords="150,350,200,410" alt="United_Kingdom" href="United_Kingdom.html">
+    	<area shape="rect" coords="170,440,250,500" alt="France" href="France.html">
+    	<area shape="rect" coords="270,410,330,470" alt="Germany" href="Germany.html">
+    	<area shape="rect" coords="350,430,420,460" alt="Czech" href="Czech.html">
+    	<area shape="rect" coords="350,460,460,500" alt="Austria" href="Austria.html">
+    	<area shape="rect" coords="250,460,310,510" alt="Swiss" href="Swiss.html">
+    	<area shape="rect" coords="310,570,410,630" alt="Italy" href="Italy.html">
+    </map>
+	<span style="float:right; width:55%; padding-top: 60px;">
+	<table>
+		<tr>
+			<th>Date</th>
+			<th>Country</th>
+			<th>City</th>
+		</tr>
+		<tr>
+			<td> 1Day</td>
+			<td colspan="2">인천출발 영국(런던)도착</td>
+		</tr>
+		<tr>
+			<td>2 Day - 4 Day</td>
+			<td>영국</td>
+			<td>런던</td>
+		</tr>
+		<tr>
+			<td>5 Day - 7 Day</td>
+			<td>프랑스</td>
+			<td>파리</td>
+		</tr>
+		<tr>
+			<td>8 Day - 10 Day</td>
+			<td>독일</td>
+			<td>뮌헨</td>
+		</tr>
+		<tr>
+			<td>11 Day - 13 Day</td>
+			<td>체코</td>
+			<td>프라하</td>
+		</tr>
+		<tr>
+			<td>14 Day - 16 Day</td>
+			<td>오스트리아</td>
+			<td>빈</td>
+		</tr>
+		<tr>
+			<td>17 Day - 19 Day</td>
+			<td>스위스</td>
+			<td>인터라켄</td>
+		</tr>
+		<tr>
+			<td rowspan="2">20 Day - 24 Day</td>
+			<td rowspan="2">이탈리아</td>
+			<td>베네치아</td>
+		</tr>
+		<tr>
+			<td>로마</td>
+		</tr>
+		<tr>
+			<td>25 Day</td>
+			<td colspan="2">로마출발 인천도착</td>
+		</tr>
+	</table>
+	</span>
+	</div>
+
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+	<h2 id="tips"> Tips (눌러주세요!)<br> </h2>
+	<div id="content">
+	<ol type="1">
+		<li>유럽의 <b>팁</b> 문화 알아가기!</li>
+		<li><b>소매치기와 각종 사기</b>가 많으니 조심해아햔다. 항상 주의를 기울일 것!</li>
+		<li>자유여행인 만큼 일정이 바뀔 수도 있으니 큰 도시에서의 숙소 정도만 미리 예약해두기.<br>단,<b> 크리스마스, 연말, 연시</b>는 유럽에서 극 성수기에 해당되므로 <b>꼭 미리 예약해두기.</b><br>예약후에는 예약 번호를 가지고 있기.</li>
+		<li><b>국제항생증</b>을 꼭 챙겨갈것! 유럽은 학생 증빙만 가능하면 그 혜택이 어마어마하다.</li>
+		<li>교통권은 하루권, 일일권으로 무제한 이용</li>
+		<li>동전이 많이 생기니 <b>동전지갑</b>을 챙기자.</li>
+		<li>숙소에서 신을 <b>슬리퍼</b>도 챙기기.</li>
+	</ol>
+	</div>
+
+
+	<br><br><br>
+	
+	<h2 id="join">Join</h2><br><br>
+	<div>
+	<span style="float:left; width:50%; margin-bottom: 50px"><img src="join.jpg" width="100%"></span>
+	<span style="float:right; width:45%; margin-bottom: 50px;  padding-top: 100px;">
+	<form>
+		Name: <input type="text" value="Ga-Yeon Kim" required><span hidden="hidden"> Type your name</span><br><br>
+		ID: <input type="number" value="20163085" required length="8"><span hidden="hidden"> Type your ID</span><br><br>
+		Email: <input type="email" required><span hidden="hidden"> Type your email</span><br><br>
+		Phone: <input type="tel" maxlength="11" required><span hidden="hidden"> Type your phone number</span><br><br>
+		United Kingdom <input type="checkbox"> France <input type="checkbox"> Germany <input type="checkbox"> Czech<input type="checkbox"> Austria <input type="checkbox"> Swiss <input type="checkbox"> Italy<input type="checkbox"><br><br>
+		<button type="submit"><span onclick="return submitAction()">Submit</span></button>
+		<button type="reset"><span onclick="return resetAction()">Reset</button></span><br><br>
+	</form>
+	</span>
+	<script type="text/javascript" src="function.js"></script>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+.float{
+	float: left;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	display: inline;
+	font-family: "Georgia", "Platino", Serif;
+	font-size: 20px;
+	font-style: italic;
+	float: right;
+}
+ul li a{
+	display: inline-block;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+	color: gray;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+ul li a:hover{
+	text-decoration: underline;
+
+}

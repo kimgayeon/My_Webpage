@@ -1,0 +1,57 @@
+body{
+	margin: 20px;
+	text-align : left;
+	font-family: "Georgia", "Platino", Serif;
+}
+span{
+	font-family: "Georgia", "Platino", Serif;
+	font-size: 25px;
+	font-weight: bold;
+	color: gray;
+	font-style: italic;
+}
+h1{
+	font-style: italic;
+	color: gray;
+	font-size: 35px;
+}
+h2{
+	font-family: "Verdana","Arial","Tahoma",Sans-serif;
+	text-align: center;
+}
+p{
+	font-size: 20px;
+	font-color: gray;
+	font-family: "Verdana","Arial","Tahoma",Sans-serif;
+}
+
+ol{
+	type: "1";
+	margin: 0;
+	padding: 0;
+}
+ol li{
+	font-family: "Georgia", "Platino", Serif;
+	font-size: 30px;
+	font-style: italic;
+	margin-left: 30px;
+}
+
+.box{
+    background:white;
+    height:200px;
+    width:800px;
+    position: relative;
+}
+
+
+.box2{
+    background:white;
+    height:350px;
+    width:800px;
+    position: relative;
+}
+
+img{
+	cursor:pointer;
+}
